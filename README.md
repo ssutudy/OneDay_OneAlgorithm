@@ -5,7 +5,7 @@
 ## 코드 저장 규칙
 작성자 이름/문제사이트[BOJ/PROGRAMMERS/LEETCODE]_문제번호(문제이름)로 생성한다.
 
-예시) junwoo/BOJ_1000.cpp, youngtaek/PROGRAMMERS_외벽점검.java
+예시) junwoo/BOJ_1000.cpp, yongtaek/PROGRAMMERS_외벽점검.java
 
 ## 커밋 convention
 **구분**: 커밋 내용
