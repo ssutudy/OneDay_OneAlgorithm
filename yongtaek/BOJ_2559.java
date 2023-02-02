@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.StringBuilder;
 import java.util.StringTokenizer;
 
 public class BOJ_2559 { 
@@ -26,11 +25,11 @@ public class BOJ_2559 {
         
         for(int i = 0 ; i < n - k + 1; i++) {
             int sum = 0;
-			for (int j = i; j < i + k; j++) {
-				sum += array[j];
-			}
+            for (int j = i; j < i + k; j++) {
+                sum += array[j];
+            }
 			
-			max = Math.max(max, sum);
+            max = Math.max(max, sum);
         }
         
         System.out.println(max);
