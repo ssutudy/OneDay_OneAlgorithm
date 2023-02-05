@@ -8,8 +8,8 @@ public class BOJ_1541 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(),"-");
         
-        int result = 0;
-        
+        int result = Integer.MAX_VALUE;
+
         while(st.hasMoreTokens()){
             int sum = 0;
             
@@ -18,7 +18,7 @@ public class BOJ_1541 {
                 sum += Integer.parseInt(st2.nextToken());
             }
 
-            if(result == 0) {
+            if(result == Integer.MAX_VALUE) {
                 result = sum;
             } else {
                 result -= sum;
