@@ -32,7 +32,7 @@ public class BOJ_1697 {
                 array[v+1] = array[v] + 1;
             }
 
-            if(v <= 50000 && v != 0 && v != 1 && array[v*2] == 0) {
+            if(v <= 50000 && v != 0 && array[v*2] == 0) {
                 queue.offer(v*2);
                 array[v*2] = array[v] + 1;
             }
