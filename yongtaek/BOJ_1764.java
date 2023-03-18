@@ -11,16 +11,16 @@ public class BOJ_1764 {
         int m = Integer.parseInt(st.nextToken());
 
         Set<String> Aset = new TreeSet<>();
-        Set<String> bset = new TreeSet<>();
+        Set<String> Bset = new TreeSet<>();₩
 
         for (int i = 0; i < n; i++) {
             Aset.add(br.readLine());
         }
         for (int i = 0; i < m; i++) {
-            bset.add(br.readLine());
+            Bset.add(br.readLine());
         }
 
-        Aset.retainAll(bset);
+        Aset.retainAll(Bset);
 
         sb.append(Aset.size()).append("\n");
         for (String s : Aset) {
