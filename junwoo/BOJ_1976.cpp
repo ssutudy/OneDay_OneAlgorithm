@@ -24,7 +24,7 @@ int main(){
             if(c == 1) union_parent(i + 1, j + 1);
         }
     }
-    can_travel = true;s
+    can_travel = true;
     while(M--){
         cin >> c;
         if(tgt == 0) tgt = find_parent(c);
